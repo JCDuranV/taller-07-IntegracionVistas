@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0" version="29.0.2">
+  <diagram name="Página-1" id="TVWHYGK7R2wyX6ZoGeYx">
+    <mxGraphModel dx="2762" dy="2302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DjqVcHoqBK6CCfkBalcb-1" target="DjqVcHoqBK6CCfkBalcb-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-11" value="Entidades usadas por procesos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DjqVcHoqBK6CCfkBalcb-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0841" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-1" value="Negocio(BPMN)&lt;div&gt;Flujo:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Flujo: Recepción de documentos, digitalización/OCR, validación, almacenamiento, generación de reportes, auditoría.&lt;/span&gt;&lt;/div&gt;Actores: Contador, Auxiliar contable, Cliente." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1312" y="-1084" width="229" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DjqVcHoqBK6CCfkBalcb-2" target="DjqVcHoqBK6CCfkBalcb-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-12" value="Apps que gestionan los datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DjqVcHoqBK6CCfkBalcb-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.3049" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-2" value="Información(ERD)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;– Documento Digital&lt;/span&gt;&lt;/div&gt;– Extracto Bancario&lt;br&gt;– Transacción&lt;br&gt;– Cliente&lt;br&gt;– Reporte Contable&lt;br&gt;– Usuario (roles)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1099" y="-763" width="206" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DjqVcHoqBK6CCfkBalcb-3" target="DjqVcHoqBK6CCfkBalcb-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-13" value="Dónde se ejecutan las apps" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DjqVcHoqBK6CCfkBalcb-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2991" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-3" value="Aplicaciones(Diagramas C4)&lt;div&gt;– Script Python para OCR y carga automática&lt;br&gt;– Módulo de validación y estandarización&lt;br&gt;– Generador automático de reportes (Excel/Power BI)&lt;br&gt;– Carpeta o repositorio en la nube con versionado&lt;br&gt;– Panel de administración (roles, auditoría)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-893" y="-1115" width="247" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DjqVcHoqBK6CCfkBalcb-4" target="DjqVcHoqBK6CCfkBalcb-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-14" value="Controles aplicados transversalmente&lt;div&gt;a cada una de las capas&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DjqVcHoqBK6CCfkBalcb-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.3121" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-4" value="Infraestructura&lt;div&gt;– Nube (SharePoint / Google Drive / OneDrive)&lt;br data-start=&quot;1570&quot; data-end=&quot;1573&quot;&gt;– Servidor local o PC de procesamiento (ejecución de scripts Python)&lt;br&gt;– Respaldo automático en nube&lt;br&gt;– Control de accesos por roles en plataforma de almacenamiento&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-703" y="-731" width="250" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="DjqVcHoqBK6CCfkBalcb-5" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Seguridad(STRIDE)&lt;/span&gt;&lt;div&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Spoofing: Autenticación de usuarios en plataformas de nube y scripts protegidos.&lt;/p&gt;&lt;p&gt;Tampering: Contenedores en nube con versionado; bloqueo contra modificaciones no autorizadas.&lt;/p&gt;&lt;p&gt;Repudiation: Registro de auditoría en la carpeta compartida y logs de ejecución.&lt;/p&gt;&lt;p&gt;Information Disclosure: Encriptación en tránsito (HTTPS) y control de permisos por rol.&lt;/p&gt;&lt;p&gt;Denial of Service: Límites de acceso simultáneo y respaldo distribuido.&lt;/p&gt;&lt;p&gt;Elevation of Privilege: Políticas de roles: Contador, Auxiliar, Administrador TI.&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-513" y="-1275" width="293" height="302" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
